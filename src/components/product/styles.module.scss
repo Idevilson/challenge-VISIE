@@ -1,0 +1,45 @@
+.ProductContainer {
+    width: 80%;
+    height: 5rem;
+
+    background-color: blue;
+    border-radius: 10px;
+
+    display: flex;
+    flex-direction: row;
+
+    align-items: center;
+    justify-content: space-between;
+
+    margin: 1rem;
+}
+
+.RightSection {
+    height: 5rem;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    h2 {
+        margin-left: 1rem ;
+    }
+
+    h3 {
+        margin-left: 1rem;
+    }
+}
+.LeftSection {
+    height: 5rem;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    button {
+        width: 10rem;
+        height: 2.5rem;
+        border-radius: 5px;
+        margin-right: 1rem
+    }
+}

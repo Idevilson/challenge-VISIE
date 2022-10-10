@@ -1,0 +1,32 @@
+.container {
+    flex: 1;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    
+    position: absolute;
+
+    h1{
+        color: #000;
+        text-align: center;
+    }
+
+    .buttonContainer {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: row;
+
+        margin-top: 1rem;
+        z-index: 1;
+    }
+    
+    button {
+        width: 100px;
+        margin: 1rem;
+        z-index: 1;
+    }
+}
+

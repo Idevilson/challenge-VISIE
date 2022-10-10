@@ -1,0 +1,36 @@
+.container {
+    width: 100%;
+
+    display: flex;
+    justify-content: center;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+    .bodyContainer {
+      width: 80vw;
+      height: 82vh;
+
+      margin-top: 2rem;
+      border-radius: 10px;
+
+      display: flex;
+      align-items: center;
+    
+      flex-direction: column;
+      overflow-y: scroll;
+
+      border-radius: 50px;
+      background: #ffffff;
+      box-shadow:  20px 20px 60px #d9d9d9,
+              -20px -20px 60px #ffffff;
+    }
+  ::-webkit-scrollbar {
+    display: none;
+  }
+}
+
